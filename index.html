@@ -19,7 +19,7 @@
       property="og:image"
       content="assets/img/preview-template/preview-template.png"
     />
-    <title>Sumon Sheikh</title>
+    <title>Shaishab Sarkar</title>
     <!-- Apple Favicon -->
     <link rel="apple-touch-icon" href="assets/img/logo/favicon.svg" />
     <!-- All Device Favicon -->
@@ -199,7 +199,7 @@
                 <div class="banner-content">
                   <h4 class="text-4 text-medium">Hi There</h4>
                   <h2 class="text-w-2 text-capital text-bold">
-                    I'm <span class="text-orange">Sumon Shekh</span>
+                    I'm <span class="text-orange">Shaishab Sarkar</span>
                   </h2>
                   <p class="text-para-1 text-medium">
                     <!-- A professional Digital Marketing Manager. -->
@@ -803,50 +803,71 @@
         </section>
         <!-- Services End -->
         <!-- Awesome Journey Start -->
+        <!-- Awesome Journey Start -->
         <section
           class="awesome-journey v1 pt-50 pb-50 pt-md-70 pb-md-70 pt-xl-100 pb-xl-100 pt-xxl-130 pb-xxl-130"
         >
           <div class="container">
-            <div class="section-title-center v2">
+            <div class="section-title-center v2 text-center">
               <h2 class="text-w-2">My Awesome Journey</h2>
               <p class="text-para-1">
                 My Awesome Journey is a chapter I want to add to my portfolio,
                 encapsulating brief anecdotes of my successes
               </p>
             </div>
-            <ul class="awesome-journey-btns mt-50 mt-xl-60" role="tablist">
-              <li>
+
+            <!-- Tab Buttons -->
+            <ul
+              class="awesome-journey-btns nav nav-tabs border-0 justify-content-center mt-50 mt-xl-60"
+              role="tablist"
+            >
+              <li class="nav-item">
                 <button
-                  class="tab-btn btn-anime text-capital round-border-small v4 active"
-                  id="my-education-1-tab"
+                  class="tab-btn btn-anime text-capital round-border-small v4 nav-link active"
+                  id="my-education-tab"
                   data-bs-toggle="tab"
-                  data-bs-target="#my-education-1"
+                  data-bs-target="#my-education"
+                  type="button"
+                  role="tab"
+                  aria-controls="my-education"
+                  aria-selected="true"
                 >
                   My Education
                 </button>
               </li>
-              <li>
+              <li class="nav-item">
                 <button
-                  class="tab-btn btn-anime text-capital round-border-small v4"
-                  id="my-experience-2-tab"
+                  class="tab-btn btn-anime text-capital round-border-small v4 nav-link"
+                  id="my-experience-tab"
                   data-bs-toggle="tab"
-                  data-bs-target="#my-experience-2"
+                  data-bs-target="#my-experience"
+                  type="button"
+                  role="tab"
+                  aria-controls="my-experience"
+                  aria-selected="false"
                 >
                   My Experience
                 </button>
               </li>
-              <li>
+              <li class="nav-item">
                 <button
-                  class="tab-btn btn-anime text-capital round-border-small v4"
-                  id="awards-3-tab"
+                  class="tab-btn btn-anime text-capital round-border-small v4 nav-link"
+                  id="awards-tab"
                   data-bs-toggle="tab"
-                  data-bs-target="#awards-3"
+                  data-bs-target="#awards"
+                  type="button"
+                  role="tab"
+                  aria-controls="awards"
+                  aria-selected="false"
                 >
                   Awards
                 </button>
               </li>
             </ul>
+
+            <!-- Tab Content -->
             <div class="tab-content mt-50 mt-xl-60">
+              <!-- Optional Background Shapes -->
               <img
                 class="shap-img-1"
                 src="assets/img/awesome-journey/v1/object-img-1.png"
@@ -857,228 +878,186 @@
                 src="assets/img/awesome-journey/v1/object-img-2.png"
                 alt="shap-img-2"
               />
+
+              <!-- Education Tab -->
               <div
                 class="tab-pane fade show active"
-                id="my-education-1"
-                tabindex="1"
+                id="my-education"
+                role="tabpanel"
+                aria-labelledby="my-education-tab"
               >
                 <ul class="journey-cards">
-                  <li
-                    class="wow animate__fadeInUp"
-                    data-wow-delay="0.1s"
-                    data-wow-offset="20"
-                    data-wow-duration="0.8s"
-                  >
-                    <h4 class="text-4">Digital Marketing Certification</h4>
-                    <h6 class="text-6 text-orange text-medium">
-                      2015-2016 - Google Digital Garage
-                    </h6>
-                    <p class="text-para-1">
-                      Completed an in-depth digital marketing course that
-                      covered SEO, SEM, content marketing, analytics, and social
-                      media strategies, providing essential knowledge for
-                      successful online marketing campaigns.
-                    </p>
-                  </li>
-                  <li
-                    class="wow animate__fadeInUp"
-                    data-wow-delay="0.3s"
-                    data-wow-offset="20"
-                    data-wow-duration="0.8s"
-                  >
+                  <!-- Each education item -->
+                  <li class="wow animate__fadeInUp" data-wow-delay="0.1s">
                     <h4 class="text-4">
-                      Social Media Marketing Specialization
+                      Advanced Lead Generation Strategy Training
                     </h4>
                     <h6 class="text-6 text-orange text-medium">
-                      2017-2018 - Coursera (Northwestern University)
+                      2017-2018 – GrowthHackers Academy
                     </h6>
                     <p class="text-para-1">
-                      Covered advanced techniques in social media advertising,
-                      content creation strategies, and audience engagement to
-                      build strong brand presence and drive conversions.
+                      Specialized training in multi-channel lead generation,
+                      cold outreach, funnel optimization, and prospect targeting
+                      — with a strong focus on high-converting B2B strategies.
                     </p>
                   </li>
-                  <li
-                    class="wow animate__fadeInUp"
-                    data-wow-delay="0.5s"
-                    data-wow-offset="20"
-                    data-wow-duration="0.8s"
-                  >
-                    <h4 class="text-4">SEO & Content Strategy Course</h4>
+                  <li class="wow animate__fadeInUp" data-wow-delay="0.3s">
+                    <h4 class="text-4">Certified Email Marketing Specialist</h4>
                     <h6 class="text-6 text-orange text-medium">
-                      2016-2017 - HubSpot Academy
+                      2018-2019 – HubSpot Academy
                     </h6>
                     <p class="text-para-1">
-                      Learned comprehensive SEO strategies, content planning,
-                      and optimization techniques to boost website traffic and
-                      improve search engine visibility.
+                      Gained hands-on experience in segmentation, automation,
+                      and crafting high-converting email campaigns that nurture
+                      leads and maximize ROI.
                     </p>
                   </li>
-                  <li
-                    class="wow animate__fadeInUp"
-                    data-wow-delay="0.7s"
-                    data-wow-offset="20"
-                    data-wow-duration="0.8s"
-                  >
+                  <li class="wow animate__fadeInUp" data-wow-delay="0.5s">
+                    <h4 class="text-4">Investor Lead Research & Data Entry</h4>
+                    <h6 class="text-6 text-orange text-medium">
+                      2019 – Freelancer Academy
+                    </h6>
+                    <p class="text-para-1">
+                      Learned professional techniques to find, verify, and
+                      structure investor leads for various niches, enabling
+                      precise targeting for lead generation.
+                    </p>
+                  </li>
+                  <li class="wow animate__fadeInUp" data-wow-delay="0.7s">
                     <h4 class="text-4">
-                      Email Marketing & Automation Certification
+                      Search Engine Optimization (SEO) Masterclass
                     </h4>
                     <h6 class="text-6 text-orange text-medium">
-                      2018-2019 - Udemy
+                      2020 – Moz Academy
                     </h6>
                     <p class="text-para-1">
-                      Mastered email marketing strategies, audience
-                      segmentation, and automation techniques to create
-                      personalized email campaigns and increase customer
-                      engagement.
+                      Completed expert-level SEO course covering keyword
+                      research, backlink strategies, technical audits, and local
+                      SEO for consistent website ranking.
                     </p>
                   </li>
-                  <li
-                    class="wow animate__fadeInUp"
-                    data-wow-delay="0.9s"
-                    data-wow-offset="20"
-                    data-wow-duration="0.8s"
-                  >
-                    <h4 class="text-4">Data Analytics for Marketing</h4>
+                  <li class="wow animate__fadeInUp" data-wow-delay="0.9s">
+                    <h4 class="text-4">
+                      Conversion-Focused Copywriting & Funnels
+                    </h4>
                     <h6 class="text-6 text-orange text-medium">
-                      2020-2021 - LinkedIn Learning
+                      2021 – CopyHackers
                     </h6>
                     <p class="text-para-1">
-                      Gained essential data analytics skills, focusing on Google
-                      Analytics and marketing performance analysis, to drive
-                      data-informed decision-making for campaigns.
-                    </p>
-                  </li>
-                </ul>
-              </div>
-              <div class="tab-pane fade" id="my-experience-2" tabindex="1">
-                <ul class="journey-cards">
-                  <li
-                    class="wow animate__fadeInUp"
-                    data-wow-delay="0.1s"
-                    data-wow-offset="20"
-                    data-wow-duration="0.8s"
-                  >
-                    <h4 class="text-4">Digital Marketing Manager</h4>
-                    <h6 class="text-6 text-orange text-medium">
-                      2022 - Present - Onespace Solutions, Remote
-                    </h6>
-                    <p class="text-para-1">
-                      Develop and execute comprehensive digital marketing
-                      strategies, including paid ad campaigns, content
-                      marketing, and SEO to enhance brand visibility and
-                      generate high-quality leads.
-                    </p>
-                  </li>
-                  <li
-                    class="wow animate__fadeInUp"
-                    data-wow-delay="0.3s"
-                    data-wow-offset="20"
-                    data-wow-duration="0.8s"
-                  >
-                    <h4 class="text-4">Social Media Marketing Specialist</h4>
-                    <h6 class="text-6 text-orange text-medium">
-                      2021-2022 - Creatify Agency, New York
-                    </h6>
-                    <p class="text-para-1">
-                      Managed social media channels, created engaging content,
-                      and implemented targeted advertising strategies to grow
-                      followers and increase customer engagement.
-                    </p>
-                  </li>
-                  <li
-                    class="wow animate__fadeInUp"
-                    data-wow-delay="0.5s"
-                    data-wow-offset="20"
-                    data-wow-duration="0.8s"
-                  >
-                    <h4 class="text-4">SEO Specialist</h4>
-                    <h6 class="text-6 text-orange text-medium">
-                      2020-2021 - Click Solutions, Leeds
-                    </h6>
-                    <p class="text-para-1">
-                      Optimized websites for search engines, conducted keyword
-                      research, and developed content strategies to improve
-                      organic search rankings and increase website traffic.
-                    </p>
-                  </li>
-                  <li
-                    class="wow animate__fadeInUp"
-                    data-wow-delay="0.7s"
-                    data-wow-offset="20"
-                    data-wow-duration="0.8s"
-                  >
-                    <h4 class="text-4">Content Marketing Executive</h4>
-                    <h6 class="text-6 text-orange text-medium">
-                      2019-2020 - ThemeHub, Bursa
-                    </h6>
-                    <p class="text-para-1">
-                      Created and managed content strategies across digital
-                      platforms, driving audience engagement and brand awareness
-                      through compelling storytelling.
+                      Gained advanced knowledge in crafting persuasive landing
+                      pages and email sequences that move leads from awareness
+                      to action.
                     </p>
                   </li>
                 </ul>
               </div>
 
-              <div class="tab-pane fade" id="awards-3" tabindex="1">
+              <!-- Experience Tab -->
+              <div
+                class="tab-pane fade"
+                id="my-experience"
+                role="tabpanel"
+                aria-labelledby="my-experience-tab"
+              >
                 <ul class="journey-cards">
-                  <li
-                    class="wow animate__fadeInUp"
-                    data-wow-delay="0.1s"
-                    data-wow-offset="20"
-                    data-wow-duration="0.8s"
-                  >
-                    <h4 class="text-4">Best Digital Marketing Campaign</h4>
-                    <h6 class="text-6 text-orange text-medium">2 Awards</h6>
+                  <li class="wow animate__fadeInUp" data-wow-delay="0.1s">
+                    <h4 class="text-4">Lead Generation Specialist</h4>
+                    <h6 class="text-6 text-orange text-medium">
+                      2020 – Present – Onespace Solutions (Remote)
+                    </h6>
                     <p class="text-para-1">
-                      Recognized for executing a high-impact digital marketing
-                      campaign that significantly increased brand visibility and
-                      drove measurable business growth.
+                      Helped over 200+ clients generate qualified leads using
+                      niche prospect research, email campaigns, and funnel
+                      optimization. Known for producing high-converting investor
+                      leads.
                     </p>
                   </li>
-                  <li
-                    class="wow animate__fadeInUp"
-                    data-wow-delay="0.3s"
-                    data-wow-offset="20"
-                    data-wow-duration="0.8s"
-                  >
-                    <h4 class="text-4">
-                      Social Media Marketing Excellence Award
-                    </h4>
-                    <h6 class="text-6 text-orange text-medium">5 Awards</h6>
+                  <li class="wow animate__fadeInUp" data-wow-delay="0.3s">
+                    <h4 class="text-4">Investor Leads Research Expert</h4>
+                    <h6 class="text-6 text-orange text-medium">
+                      2018–2020 – Freelance (Fiverr & Upwork)
+                    </h6>
                     <p class="text-para-1">
-                      Received multiple accolades for creating and managing
-                      engaging social media campaigns that boosted customer
-                      engagement and brand awareness.
+                      Delivered accurate and verified investor lead lists
+                      tailored to clients’ target markets. Specialized in
+                      startup investors, real estate, and finance leads.
                     </p>
                   </li>
-                  <li
-                    class="wow animate__fadeInUp"
-                    data-wow-delay="0.5s"
-                    data-wow-offset="20"
-                    data-wow-duration="0.8s"
-                  >
-                    <h4 class="text-4">SEO Performance Award</h4>
-                    <h6 class="text-6 text-orange text-medium">4 Awards</h6>
+                  <li class="wow animate__fadeInUp" data-wow-delay="0.5s">
+                    <h4 class="text-4">Email Marketing Specialist</h4>
+                    <h6 class="text-6 text-orange text-medium">
+                      2019 – Creatify Agency
+                    </h6>
                     <p class="text-para-1">
-                      Honored for exceptional achievements in SEO strategies
-                      that significantly improved organic search rankings and
-                      increased website traffic.
+                      Designed and implemented high-performance email campaigns
+                      with segmentation and A/B testing to improve open rates
+                      and conversions by over 35%.
                     </p>
                   </li>
-                  <li
-                    class="wow animate__fadeInUp"
-                    data-wow-delay="0.7s"
-                    data-wow-offset="20"
-                    data-wow-duration="0.8s"
-                  >
-                    <h4 class="text-4">Content Marketing Impact Award</h4>
-                    <h6 class="text-6 text-orange text-medium">7 Awards</h6>
+                  <li class="wow animate__fadeInUp" data-wow-delay="0.7s">
+                    <h4 class="text-4">SEO Executive</h4>
+                    <h6 class="text-6 text-orange text-medium">
+                      2017 – Click Solutions
+                    </h6>
                     <p class="text-para-1">
-                      Recognized for creating impactful and innovative content
-                      strategies that drove audience engagement and generated
-                      high-quality leads.
+                      Improved organic rankings and traffic for 20+ websites.
+                      Implemented SEO strategies including link building, meta
+                      optimization, and site audits.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Awards Tab -->
+              <div
+                class="tab-pane fade"
+                id="awards"
+                role="tabpanel"
+                aria-labelledby="awards-tab"
+              >
+                <ul class="journey-cards">
+                  <li class="wow animate__fadeInUp" data-wow-delay="0.1s">
+                    <h4 class="text-4">Top Rated Lead Generation Freelancer</h4>
+                    <h6 class="text-6 text-orange text-medium">
+                      Upwork & Fiverr – 5 Times
+                    </h6>
+                    <p class="text-para-1">
+                      Recognized for consistently delivering high-quality leads
+                      and achieving outstanding client satisfaction across
+                      multiple freelance platforms.
+                    </p>
+                  </li>
+                  <li class="wow animate__fadeInUp" data-wow-delay="0.3s">
+                    <h4 class="text-4">Best Email Campaign Strategy</h4>
+                    <h6 class="text-6 text-orange text-medium">
+                      2022 – Digital Freelance Awards
+                    </h6>
+                    <p class="text-para-1">
+                      Honored for crafting a personalized and automated email
+                      series that doubled client lead conversion rates in less
+                      than 30 days.
+                    </p>
+                  </li>
+                  <li class="wow animate__fadeInUp" data-wow-delay="0.5s">
+                    <h4 class="text-4">SEO Optimization Excellence</h4>
+                    <h6 class="text-6 text-orange text-medium">
+                      2021 – SEO Experts Guild
+                    </h6>
+                    <p class="text-para-1">
+                      Awarded for outstanding SEO audits and strategies that
+                      resulted in major traffic and ranking improvements for
+                      client websites.
+                    </p>
+                  </li>
+                  <li class="wow animate__fadeInUp" data-wow-delay="0.7s">
+                    <h4 class="text-4">Top Investor Leads Provider</h4>
+                    <h6 class="text-6 text-orange text-medium">
+                      Freelance Platform Recognition – 3 Years
+                    </h6>
+                    <p class="text-para-1">
+                      Known for delivering well-researched, high-conversion
+                      investor lead databases that meet strict targeting and
+                      industry criteria.
                     </p>
                   </li>
                 </ul>
@@ -1086,6 +1065,8 @@
             </div>
           </div>
         </section>
+        <!-- Awesome Journey End -->
+
         <!-- Awesome Journey End -->
         <!-- Latest Project Start -->
         <section
@@ -1862,7 +1843,9 @@
           </div>
         </section> -->
 
-        <section class="my-projects-section pt-50 pb-50 pt-md-70 pb-md-70 pt-xl-100 pb-xl-100 pt-xxl-130 pb-xxl-130">
+        <section
+          class="my-projects-section pt-50 pb-50 pt-md-70 pb-md-70 pt-xl-100 pb-xl-100 pt-xxl-130 pb-xxl-130"
+        >
           <div class="container">
             <div class="section-title-center v2 mb-40">
               <h2 class="text-w-2">My Projects</h2>
